@@ -1,0 +1,23 @@
+{
+    "name": "itmar/my-composer-package",
+    "type": "library",
+    "require": {
+        "wp-cli/wp-cli": "^2.8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Itmar\\MyComposerPackage\\": "src/"
+        },
+        "files": [
+            "command-registration-file.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "itmaroon",
+            "email": "master@itmaroon.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}
