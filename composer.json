@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Itmar\\MyComposerPackage\\": "src/"
+            "Itmar\\MyComposerPackage\\": "scr/"
         },
         "files": [
             "command-registration-file.php"
